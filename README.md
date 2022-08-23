@@ -1,6 +1,5 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
 
 Pascal Oestrich
 
@@ -19,26 +18,32 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1  |   Muss  | Funktional| Ich als Spieler möchte, dass meine erratete Zahl zwischen 1 und 100 liegt.                                          |
-| 2  |   Muss  | Funktional|    Der Spieler kann die Zahl erraten.                                                                               |
-| 3  |   Muss  | Funktional|   Das Programm gibt für jede geratete zahl einen Hinweis aus. ("Die geratete Zahl ist niedriger als die Geheimzahl.") ("Die geratene Zahl ist grösser als die Geheimzahl.") ("Die Geheimzahl wurde erraten.")                                                                              |
-| 4  |   Muss  | Funktional|   Wenn die Geheimzahl erraten wurde, soll die Anzahl der Ratversuche dargestellt werden.                            |
-| 5  |   Muss  | Funktional|   Der Benutzer erwartet, dass das Programm mit Fehlereingaben umgehen kann.                                         |
-| 6  |   Kann  | Qualität  |   Am Ende des Programms, erwartet der Spieler gefragt zu werden, ob er das Spiel weiter spielen oder beenden will.  |
-| 7  |   Kann  | Rand      |   Die Ausgaben vom Programm, sollen gut, schön und übersichtlich dargestellt werden.                                |
+| 1  |   Muss  | Funktional| Ich als Spieler möchte, dass meine erratete Zahl zwischen 1 und 100 liegt. Um das Spiel du deffinieren.                                         |
+| 2  |   Muss  | Funktional|    Der Spieler kann die Zahl erraten. Um das Spiel spielen zu können.                                                                         |
+| 3  |   Muss  | Funktional|   Das Programm gibt für jede geratete zahl einen Hinweis aus. ("Die geratete Zahl ist niedriger als die Geheimzahl.") ("Die geratene Zahl ist grösser als die Geheimzahl.") ("Die Geheimzahl wurde erraten.") Dies ist wichtig, um das Spiel angenehmer zu gestalten.                                                                            |
+| 4  |   Muss  | Funktional|   Wenn die Geheimzahl erraten wurde, soll die Anzahl der Ratversuche dargestellt werden. Dieses Funktion dient dazu, zum zu sehen, wie viele versuche ich gebraucht habe.                            |
+| 5  |   Muss  | Funktional|   Der Benutzer erwartet, dass das Programm mit Fehlereingaben umgehen kann. Das ist natürlich wichtig, um das spiel angenehm spielen zu können.                                         |
+| 6  |   Kann  | Qualität  |   Am Ende des Programms, erwartet der Spieler gefragt zu werden, ob er das Spiel weiter spielen oder beenden will. Dies dient dazu um das Spiel schnell zu wiederholen. |
+| 7  |   Kann  | Rand      |   Die Ausgaben vom Programm, sollen gut, schön und übersichtlich dargestellt werden. Diese Funktin schliesst die mögliche Verwirung des Spielers aus.                               |
 
-
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |      Programm gestartet Eingabefeld ist bereit für eingabe.       |    Zahl über 100     |      Die gewünschte Zahl liegt zwischen 1 und 100.             |
+| 2.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Die gesuchte Zahl   |         "Die eingegebene Zahl ist Korrekt!"         |
+| 2.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Die falsche Zahl   |         "Die eingegebene Zahl ist flasch!" (Das Eingabefeld erscheint.)       |
+| 3.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine höhere als die Gesuchte Zahl ein   |         "Die eingegebene Zahl ist zu hoch!"       |
+| 3.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine kleinere als die Gesuchte Zahl ein   |         "Die eingegebene Zahl ist zu klein!"       |
+| 3.3 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Die gesuchte Zahl   |         "Die Glückszahl ist Korrekt!"         |
+| 4.1 |        Programm gestartet Geheim zahl wurde erratet   |       |         "Die eingegebene Zahl ist korrekt! Hier sind Ihre versuche: (Anzahl versuche)        |
+| 5.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "Hallo Welt" ein   |         "Es ist eine Zahl gesucht! versuche es nochmal."  (Das Eingabefeld erscheint.)      |
+| 5.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "3.32" ein   |         "Es sind ganze Zahlen gesucht! versuche es nochmal." (Das Eingabefeld erscheint.)        |
+| 6.1 |        Programm gestartet Die Zahl wurde korrekt eingegeben.   |        |         "Möchten Sie das Spiel wiederholen? Dann schreiben Sie wiederholen." (Ein Feld erscheint, indem man wiederholen eingeben kann."      |
+| 6.2 |        Programm gestartet Ich werde gefragt, ob ich das Spiel wiederholen möchte.   |    Wiederholen   |         "Das Spiel wird wiederholt." (Das Spielt beginnt von Vorne.    |
+| 7.1 |        Das Programm ist am Ende|        |         (Alles ist schön untereinander aufgelistet.)        |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
@@ -48,14 +53,17 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |    23.08.2022   |      Ich    |     Die Projektbeschreibung geschrieben. Und Pap erstellen.        |       4        |
+| 2.A  |    30.08.2022   |     Ich     |      Das Grundprinzip des Programms wird realisiert.       |       4        |
+| 2.B  |    30.08.2022   |     Ich     |      Informieren: Von den Zusatzfähigkeiten des Programms (Wiederholfrage) (übersichtlichkeit)     |       2        |
+| 3.A  |    06.09.2022   |     Ich     |     Die Zusatzfähigkeiten des Programms werden realisiert.       |       4        |
+| 2.A  |    13.09.2022   |     Ich     |      Das Programm wird getestet und alle Probleme behoben.       |       4        |
 
-Total: 
+Geplante zeit (Zahl) = 45 min.
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+Total: 18 * 45min = 810 min
+
 
 ## 3 Entscheiden
 
