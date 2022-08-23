@@ -19,12 +19,12 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1  |   Muss  | Funktional   | Ich als Spiele möchte dass meine eratete Zahl zwischen 1 und 100 liegt.                      |
-| 2  |   Muss  | Funktional   |    Der Spieler kann die Zahl eraten.                |
-| 3  |   Muss | Funktional   |   Das Programm gibt für jede geratete zahl einen hinweis aus. ("Die geratete Zahl ist niedriger als die Geheimzahl.") ("Die geratene Zahl ist grösser als die Geheimzahl.") ("Die geheimzahl wurde erraten.")                       |
-| 4  |   Muss  | Funktional  |   Wenn die Geheimzahl erraten wurde, soll die Anzahkl der Ratversuchen dargestellt werden.|
+| 1  |   Muss  | Funktional   | Ich als Spieler möchte, dass meine erratete Zahl zwischen 1 und 100 liegt.                      |
+| 2  |   Muss  | Funktional   |    Der Spieler kann die Zahl erraten.                |
+| 3  |   Muss | Funktional   |   Das Programm gibt für jede geratete zahl einen Hinweis aus. ("Die geratete Zahl ist niedriger als die Geheimzahl.") ("Die geratene Zahl ist grösser als die Geheimzahl.") ("Die Geheimzahl wurde erraten.")                       |
+| 4  |   Muss  | Funktional  |   Wenn die Geheimzahl erraten wurde, soll die Anzahl der Ratversuche dargestellt werden.|
 | 5  |   Muss  | Funktional  |   Der Benutzer erwartet, dass das Programm mit Fehlereingaben umgehen kann.|
-| 6  |   Kann  | Qualität  |   Am Ende des Programm, erwartet der Spieler gefragt zu werden, ob er das Spiel weiter spielen oder beenden will.|
+| 6  |   Kann  | Qualität  |   Am Ende des Programms, erwartet der Spieler gefragt zu werden, ob er das Spiel weiter spielen oder beenden will.|
 | 7  |   Kann  | Rand  |   Die Ausgaben vom Programm, sollen gut, schön und übersichtlich dargestellt werden.
 
 
