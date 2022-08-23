@@ -4,11 +4,11 @@
 
 Pascal Oestrich
 
-| Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|  23.08.2022     | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht     |  haben.         |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| Datum | Version | Zusammenfassung                                                                          |
+| ----- | ------- | ---------------------------------------------------------------------------------------- |
+|  23.08.2022     | 0.0.1   | Heute habe ich die User-Stories geschrieben und ein Pap vom programm erstellt.   |        
+|                 | ...     |                                                                                |
+|                 | 1.0.0   |                                                                                |
 
 ## 1 Informieren
 
@@ -19,13 +19,13 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1  |   Muss  | Funktional   | Ich als Spieler möchte, dass meine erratete Zahl zwischen 1 und 100 liegt.                      |
-| 2  |   Muss  | Funktional   |    Der Spieler kann die Zahl erraten.                |
-| 3  |   Muss | Funktional   |   Das Programm gibt für jede geratete zahl einen Hinweis aus. ("Die geratete Zahl ist niedriger als die Geheimzahl.") ("Die geratene Zahl ist grösser als die Geheimzahl.") ("Die Geheimzahl wurde erraten.")                       |
-| 4  |   Muss  | Funktional  |   Wenn die Geheimzahl erraten wurde, soll die Anzahl der Ratversuche dargestellt werden.|
-| 5  |   Muss  | Funktional  |   Der Benutzer erwartet, dass das Programm mit Fehlereingaben umgehen kann.|
-| 6  |   Kann  | Qualität  |   Am Ende des Programms, erwartet der Spieler gefragt zu werden, ob er das Spiel weiter spielen oder beenden will.|
-| 7  |   Kann  | Rand  |   Die Ausgaben vom Programm, sollen gut, schön und übersichtlich dargestellt werden.
+| 1  |   Muss  | Funktional| Ich als Spieler möchte, dass meine erratete Zahl zwischen 1 und 100 liegt.                                          |
+| 2  |   Muss  | Funktional|    Der Spieler kann die Zahl erraten.                                                                               |
+| 3  |   Muss  | Funktional|   Das Programm gibt für jede geratete zahl einen Hinweis aus. ("Die geratete Zahl ist niedriger als die Geheimzahl.") ("Die geratene Zahl ist grösser als die Geheimzahl.") ("Die Geheimzahl wurde erraten.")                                                                              |
+| 4  |   Muss  | Funktional|   Wenn die Geheimzahl erraten wurde, soll die Anzahl der Ratversuche dargestellt werden.                            |
+| 5  |   Muss  | Funktional|   Der Benutzer erwartet, dass das Programm mit Fehlereingaben umgehen kann.                                         |
+| 6  |   Kann  | Qualität  |   Am Ende des Programms, erwartet der Spieler gefragt zu werden, ob er das Spiel weiter spielen oder beenden will.  |
+| 7  |   Kann  | Rand      |   Die Ausgaben vom Programm, sollen gut, schön und übersichtlich dargestellt werden.                                |
 
 
 
