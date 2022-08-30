@@ -6,7 +6,7 @@ Pascal Oestrich
 | Datum | Version | Zusammenfassung                                                                          |
 | ----- | ------- | ---------------------------------------------------------------------------------------- |
 |  23.08.2022     | 0.0.1   | Heute habe ich die User-Stories geschrieben und ein Pap vom programm erstellt. |        
-|  30.08.2022     | 0.0.2   |   Heute habe ich die wichtigsten Funktionen vom Spiel programmier, die schleifen. Dazu programmierte ich das Spiel heute so, dass ich eine wiederholfrage bekomme, wenn ich das Spiel fertig gespielt habe. |
+|  30.08.2022     | 0.0.2   |   Heute habe ich die wichtigsten Funktionen vom Spiel programmiert, nähmlich die if und else schleifen. Dazu programmierte ich zum Spiel eine wiederholfrage, wenn ich das Spiel fertig gespielt habe. |
 
 ## 1 Informieren
 
