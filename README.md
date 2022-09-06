@@ -36,10 +36,10 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 | 3.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine höhere als die Gesuchte Zahl ein   |         "Die eingegebene Zahl ist zu hoch!"       |
 | 3.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine kleinere als die Gesuchte Zahl ein   |         "Die eingegebene Zahl ist zu klein!"       |
 | 3.3 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Die gesuchte Zahl   |         "Die Glückszahl ist Korrekt!"         |
-| 4.1 |        Programm gestartet Geheim zahl wurde erratet   |       |         "Die eingegebene Zahl ist korrekt! Hier sind Ihre versuche: (Anzahl versuche)        |
+| 4.1 |        Programm gestartet Geheim zahl wurde erratet und eingetippt  |    Enter   |         "Die eingegebene Zahl ist korrekt! Hier sind Ihre versuche: (Anzahl versuche)        |
 | 5.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "Hallo Welt" ein   |         "Es ist eine Zahl gesucht! versuche es nochmal."  (Das Eingabefeld erscheint.)      |
 | 5.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "3.32" ein   |         "Es sind ganze Zahlen gesucht! versuche es nochmal." (Das Eingabefeld erscheint.)        |
-| 6.1 |        Programm gestartet Die Zahl wurde korrekt eingegeben.   |        |         "Möchten Sie das Spiel wiederholen? Dann schreiben Sie wiederholen." (Ein Feld erscheint, indem man wiederholen eingeben kann."      |
+| 6.1 |        Programm gestartet Die Zahl wurde korrekt eingetippt.   |  Enter      |         "Möchten Sie das Spiel wiederholen? Dann schreiben Sie wiederholen." (Ein Feld erscheint, indem man wiederholen eingeben kann."      |
 | 6.2 |        Programm gestartet Ich werde gefragt, ob ich das Spiel wiederholen möchte.   |    Wiederholen   |         "Das Spiel wird wiederholt." (Das Spielt beginnt von Vorne.    |
 | 7.1 |        Das Programm ist am Ende|        |         (Alles ist schön untereinander aufgelistet.)        |
 
@@ -56,7 +56,7 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 | 2.A  |    30.08.2022   |     Ich     |      Das Grundprinzip des Programms wird realisiert.       |       4        |
 | 2.B  |    30.08.2022   |     Ich     |      Informieren: Von den Zusatzfähigkeiten des Programms (Wiederholfrage) (übersichtlichkeit)     |       2        |
 | 3.A  |    06.09.2022   |     Ich     |     Die Zusatzfähigkeiten des Programms werden realisiert.       |       4        |
-| 2.A  |    13.09.2022   |     Ich     |      Das Programm wird getestet und alle Probleme behoben.       |       4        |
+| 2.A  |    06.09.2022   |     Ich     |      Das Programm wird getestet und alle Probleme behoben.       |       4        |
 
 Geplante zeit (Zahl) = 45 min.
 
