@@ -7,6 +7,7 @@ Pascal Oestrich
 | ----- | ------- | ---------------------------------------------------------------------------------------- |
 |  23.08.2022     | 0.0.1   | Heute habe ich die User-Stories geschrieben und ein Pap vom programm erstellt. |        
 |  30.08.2022     | 0.0.2   |   Heute habe ich die wichtigsten Funktionen vom Spiel programmiert, nähmlich die if und else schleifen. Dazu programmierte ich zum Spiel eine wiederholfrage, wenn ich das Spiel fertig gespielt habe. |
+|  06.09.2022     | 0.0.3   |   Das Spiel läuft einwand frei. Ich habe dazu noch Programmiert, dass das Pogramm bei einer falschen Eingabe nicht abstürtzt. Am ende des Spiels wird man ja noch gefragt, ob man weiter spielen oder auf hören möchte. Beim beenden des Spiels wird eine kleine Ausgabe getätigt. Ich Programmierte Das Spiel so, dass jetzt das Design übersichtlich und gut aussieht. |
 
 ## 1 Informieren
 
@@ -26,6 +27,7 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 | 7  |   Kann  | Rand      |   Die Ausgaben vom Programm, sollen gut, schön und übersichtlich dargestellt werden. Diese Funktin schliesst die mögliche Verwirung des Spielers aus.                               |
 
 
+
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
@@ -37,10 +39,10 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 | 3.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine kleinere als die Gesuchte Zahl ein   |         "Die eingegebene Zahl ist zu klein!"       |
 | 3.3 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Die gesuchte Zahl   |         "Die Glückszahl ist Korrekt!"         |
 | 4.1 |        Programm gestartet Geheim zahl wurde erratet und eingetippt  |    Enter   |         "Die eingegebene Zahl ist korrekt! Hier sind Ihre versuche: (Anzahl versuche)        |
-| 5.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "Hallo Welt" ein   |         "Es ist eine Zahl gesucht! versuche es nochmal."  (Das Eingabefeld erscheint.)      |
-| 5.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "3.32" ein   |         "Es sind ganze Zahlen gesucht! versuche es nochmal." (Das Eingabefeld erscheint.)        |
-| 6.1 |        Programm gestartet Die Zahl wurde korrekt eingetippt.   |  Enter      |         "Möchten Sie das Spiel wiederholen? Dann schreiben Sie wiederholen." (Ein Feld erscheint, indem man wiederholen eingeben kann."      |
-| 6.2 |        Programm gestartet Ich werde gefragt, ob ich das Spiel wiederholen möchte.   |    Wiederholen   |         "Das Spiel wird wiederholt." (Das Spielt beginnt von Vorne.    |
+| 5.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "Hallo Welt" ein   |         "Falsche Eingabe: Geben Sie eine Zahl ein." (Das Eingabefeld erscheint.)      |
+| 5.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "3.32" ein   |         "Falsche Eingabe: Geben Sie eine Zahl ein." (Das Eingabefeld erscheint.)        |
+| 6.1 |        Programm gestartet Die Zahl wurde korrekt eingetippt.   |  Enter      |         "Möchten Sie das Spiel wiederholen? Dann schreiben Sie ja." (Ein Feld erscheint, indem man ja eingeben kann."      |
+| 6.2 |        Programm gestartet Ich werde gefragt, ob ich das Spiel wiederholen möchte.   |    ja   |         "Das Spiel wird wiederholt." (Eine neue Randomzahl wird generiert.    |
 | 7.1 |        Die Zahl wurde richtig eigegeben |    Enter    |         (Alles ist schön untereinander aufgelistet.)        |
 
 
@@ -74,7 +76,7 @@ Total: 18 * 45min = 810 min
 | 1.A  |  23.08.2022     |    Ich      |        4       |          3         |
 | 2.A  |  30.08.2022     |    Ich      |        4       |          3         |
 | 2.B  |  30.08.2022     |    Ich      |        2       |          1         |
-| 3.A  |  ------    |    ------     |      -----      |        -----       |
+| 3.A  |  06.09.2022  |    ich    |      4      |        4      |
 
 
 ## 5 Kontrollieren
