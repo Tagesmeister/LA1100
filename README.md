@@ -41,12 +41,12 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 | 5.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "3.32" ein   |         "Es sind ganze Zahlen gesucht! versuche es nochmal." (Das Eingabefeld erscheint.)        |
 | 6.1 |        Programm gestartet Die Zahl wurde korrekt eingetippt.   |  Enter      |         "Möchten Sie das Spiel wiederholen? Dann schreiben Sie wiederholen." (Ein Feld erscheint, indem man wiederholen eingeben kann."      |
 | 6.2 |        Programm gestartet Ich werde gefragt, ob ich das Spiel wiederholen möchte.   |    Wiederholen   |         "Das Spiel wird wiederholt." (Das Spielt beginnt von Vorne.    |
-| 7.1 |        Das Programm ist am Ende|        |         (Alles ist schön untereinander aufgelistet.)        |
+| 7.1 |        Die Zahl wurde richtig eigegeben |    Enter    |         (Alles ist schön untereinander aufgelistet.)        |
 
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![image](https://user-images.githubusercontent.com/110892258/188563705-a478d185-8b44-4033-b98f-4c2925b4e7c8.png)
 
 ## 2 Planen
 
@@ -54,9 +54,9 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |    23.08.2022   |      Ich    |     Die Projektbeschreibung geschrieben. Und Pap erstellen.        |       4        |
 | 2.A  |    30.08.2022   |     Ich     |      Das Grundprinzip des Programms wird realisiert.       |       4        |
-| 2.B  |    30.08.2022   |     Ich     |      Informieren: Von den Zusatzfähigkeiten des Programms (Wiederholfrage) (übersichtlichkeit)     |       2        |
-| 3.A  |    06.09.2022   |     Ich     |     Die Zusatzfähigkeiten des Programms werden realisiert.       |       4        |
-| 2.A  |    06.09.2022   |     Ich     |      Das Programm wird getestet und alle Probleme behoben.       |       4        |
+| 2.B  |    30.08.2022   |     Ich     |      Informieren: Von den Zusatzfähigkeiten des Programms (Wiederholfrage) (übersichtlichkeit) (Fehlerbehebung).    |       2        |
+| 3.A  |    06.09.2022   |     Ich     |     Die Zusatzfähigkeiten des Programms werden realisiert (Wiederholfragr) (übersichtlichkeit) (Fehlerbehebung).       |       4        |
+| 3.B  |    06.09.2022   |     Ich     |      Das Programm wird getestet und alle Probleme behoben.       |       4        |
 
 Geplante zeit (Zahl) = 45 min.
 
@@ -66,7 +66,6 @@ Total: 18 * 45min = 810 min
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
 ## 4 Realisieren
 
@@ -77,7 +76,6 @@ Total: 18 * 45min = 810 min
 | 2.B  |  30.08.2022     |    Ich      |        2       |          1         |
 | 3.A  |  ------    |    ------     |      -----      |        -----       |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
