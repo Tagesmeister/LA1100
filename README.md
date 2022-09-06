@@ -56,8 +56,8 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |    23.08.2022   |      Ich    |     Die Projektbeschreibung geschrieben. Und Pap erstellen.        |       4        |
 | 2.A  |    30.08.2022   |     Ich     |      Das Grundprinzip des Programms wird realisiert.       |       4        |
-| 2.B  |    30.08.2022   |     Ich     |      Informieren: Von den Zusatzfähigkeiten des Programms (Wiederholfrage) (übersichtlichkeit) (Fehlerbehebung).    |       2        |
-| 3.A  |    06.09.2022   |     Ich     |     Die Zusatzfähigkeiten des Programms werden realisiert (Wiederholfragr) (übersichtlichkeit) (Fehlerbehebung).       |       4        |
+| 2.B  |    30.08.2022   |     Ich     |      Informieren: Von den Zusatzfähigkeiten des Programms (Wiederholfragen) (übersichtlichkeit) (Fehlerbehebung).    |       2        |
+| 3.A  |    06.09.2022   |     Ich     |     Die Zusatzfähigkeiten des Programms werden realisiert (Wiederholfragen) (übersichtlichkeit) (Fehlerbehebung).       |       4        |
 | 3.B  |    06.09.2022   |     Ich     |      Das Programm wird getestet und alle Probleme behoben.       |       4        |
 
 Geplante zeit (Zahl) = 45 min.
