@@ -7,7 +7,7 @@ Pascal Oestrich
 | ----- | ------- | ---------------------------------------------------------------------------------------- |
 |  23.08.2022     | 0.0.1   | Heute habe ich die User-Stories geschrieben und ein Pap vom programm erstellt. |        
 |  30.08.2022     | 0.0.2   |   Heute habe ich die wichtigsten Funktionen vom Spiel programmiert, nähmlich die if und else schleifen. Dazu programmierte ich zum Spiel eine wiederholfrage, wenn ich das Spiel fertig gespielt habe. |
-|  06.09.2022     | 0.0.3   |   Das Spiel läuft einwand frei. Ich habe dazu noch Programmiert, dass das Pogramm bei einer falschen Eingabe nicht abstürtzt. Am ende des Spiels wird man ja noch gefragt, ob man weiter spielen oder auf hören möchte. Beim beenden des Spiels wird eine kleine Ausgabe getätigt. Ich Programmierte Das Spiel so, dass jetzt das Design übersichtlich und gut aussieht. |
+|  06.09.2022     | 0.0.3   |   Das Spiel läuft Einwand frei. Ich habe dazu noch programmiert, dass das Programm bei einer falschen Eingabe nicht abstürzt. Am Ende des Spiels wird man ja noch gefragt, ob man weiter spielen oder auf hören möchte. Beim Beenden des Spiels wird eine kleine Ausgabe getätigt. Ich programmierte das Spiel so, dass jetzt das Design übersichtlich und gut aussieht. |
 
 ## 1 Informieren
 
