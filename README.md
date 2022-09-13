@@ -34,14 +34,14 @@ In meinem Projekt, werde ich ein kleines Spiel mit C# Programmieren, in dem man 
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |      Programm gestartet Eingabefeld ist bereit für eingabe.       |    Zahl über 100     |      Die gewünschte Zahl liegt zwischen 1 und 100.             |
 | 2.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Die gesuchte Zahl   |         "Die eingegebene Zahl ist Korrekt!"         |
-| 2.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Die falsche Zahl   |         "Die eingegebene Zahl ist flasch!" (Das Eingabefeld erscheint.)       |
-| 3.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine höhere als die Gesuchte Zahl ein   |         "Die eingegebene Zahl ist zu hoch!"       |
-| 3.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine kleinere als die Gesuchte Zahl ein   |         "Die eingegebene Zahl ist zu klein!"       |
-| 3.3 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Die gesuchte Zahl   |         "Die Glückszahl ist Korrekt!"         |
-| 4.1 |        Programm gestartet Geheim zahl wurde erratet und eingetippt  |    Enter   |         "Die eingegebene Zahl ist korrekt! Hier sind Ihre versuche: (Anzahl versuche)        |
-| 5.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "Hallo Welt" ein   |         "Falsche Eingabe: Geben Sie eine Zahl ein." (Das Eingabefeld erscheint.)      |
+| 2.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Die falsche Zahl   |         Die gesuchte Zahl ist grüsser/kleiner als die gesuchte Zahl (Das Eingabefeld erscheint.)       |
+| 3.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine höhere als die Gesuchte Zahl ein   |         "Die gesuchte Zahl ist kleiner" (eingegebene ZahL)       |
+| 3.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.     |     Gebe eine kleinere als die Gesuchte Zahl ein   |        "Die gesuchte Zahl ist kleiner" (eingegebene ZahL)       |
+| 3.3 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Die gesuchte Zahl   |         "Supper deine gesuchte Zahl ist:" (Gesuchte Zahl)        |
+| 4.1 |        Programm gestartet Geheim zahl wurde erratet und eingetippt  |    Enter   |         "Deine versuche:" (Anzahl versuche)        |
+| 5.1 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "Hallo Welt" ein   |         "Falsche Eingabe: Geben Sie eine Zahl ein!!" (Das Eingabefeld erscheint.)      |
 | 5.2 |        Programm gestartet Eingabefeld ist bereit für eingabe.    |     Gebe "3.32" ein   |         "Falsche Eingabe: Geben Sie eine Zahl ein." (Das Eingabefeld erscheint.)        |
-| 6.1 |        Programm gestartet Die Zahl wurde korrekt eingetippt.   |  Enter      |         "Möchten Sie das Spiel wiederholen? Dann schreiben Sie ja." (Ein Feld erscheint, indem man ja eingeben kann."      |
+| 6.1 |        Programm gestartet Die Zahl wurde korrekt eingetippt.   |  Enter      |        "Willst du noch Einmal spielen? [ja|nein]" (Ein Feld erscheint, indem man ja eingeben kann."      |
 | 6.2 |        Programm gestartet Ich werde gefragt, ob ich das Spiel wiederholen möchte.   |    ja   |         "Das Spiel wird wiederholt." (Eine neue Randomzahl wird generiert.    |
 | 7.1 |        Die Zahl wurde richtig eigegeben |    Enter    |         (Alles ist schön untereinander aufgelistet.)        |
 
@@ -85,8 +85,17 @@ Total: 18 * 45min = 810 min
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |    13.09.2022   |     Funktioniert nicht    |   Oestrich     |
+| 2.1  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 3.1  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 3.2  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 3.3  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 4.1  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 5.1  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 5.2  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 6.1  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 6.2  |    13.09.2022   |     Funktioniert     |  Oestrich      |
+| 7.1  |    13.09.2022   |     Funktioniert     |  Oestrich      |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
@@ -97,6 +106,7 @@ Total: 18 * 45min = 810 min
 | I    |              |         |                   |                      |
 | ...  |              |         |                   |                      |
 
+Mein Programm wird von Keanu überprüft.
 ✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
