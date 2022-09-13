@@ -116,4 +116,4 @@ Mein Programm wurde von Lorenzo Lai überprüft.
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+
