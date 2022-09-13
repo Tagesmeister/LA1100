@@ -114,6 +114,6 @@ Mein Programm funktionuert ganz gut, ausser wenn ich eine grössere Zahl als 100
 Mein Programm wurde von Lorenzo Lai überprüft.
 
 
-## 6 Auswerten
+
 
 
